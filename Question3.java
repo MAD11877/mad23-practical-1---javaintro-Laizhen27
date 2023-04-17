@@ -14,6 +14,7 @@ public class Question3
     System.out.print("Enter a number: ");
     int numb = in.nextInt();
     System.out.println(numb * numb);
+    in.close();
 
   }
 }
