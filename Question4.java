@@ -18,7 +18,7 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number");
+    // System.out.print("Enter a number");
     int row = in.nextInt();
     for(int i = 0; i<row;i++){
       for(int j = 0; j < row-i; j++){
@@ -26,7 +26,7 @@ public class Question4
       }
       System.out.println();
     }
-
+    in.close();
     
   }
 }
