@@ -34,7 +34,7 @@ public class Question5
    
     ArrayList <Integer> data = new ArrayList<>();
     for(int i = 0; i < tries; i++){
-      System.out.print((i+1)+"): ");
+      // System.out.print((i+1)+"): ");
       int numb = in.nextInt();
       data.add(numb);
       
